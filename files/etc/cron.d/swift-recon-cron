@@ -1,0 +1,3 @@
+{% for n in range(1, (pillar['storage_zones'] + 1)) -%}
+*/10 * * * * swift /usr/bin/swift-recon-cron /etc/swift/object-server/{{ n }}.conf
+{% endfor %}
