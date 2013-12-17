@@ -18,7 +18,7 @@ requires:
       roles: saio
     
     # salt -G 'roles:saio' state.highstate
-    # salt -G 'roles:saio saio.remakerings
+    # salt -G 'roles:saio' saio.remakerings
 ```
 At this point you should have a configured SAIO and can start services up and run tests.
 ```
